@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67761" started-at="2021-06-25T08:23:07 IST" finished-at="2021-06-25T08:24:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67761" started-at="2021-06-25T08:23:07 IST" finished-at="2021-06-25T08:24:15 IST">
+      <class name="com.yatra.qa.testCases.SearchFlightResultsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yatra.qa.testCases.SearchFlightResultsPageTest@ea1a8d5]" name="setUp" is-config="true" duration-ms="15349" started-at="2021-06-25T08:23:08 IST" finished-at="2021-06-25T08:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchResultPageLoadTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.yatra.qa.testCases.SearchFlightResultsPageTest@ea1a8d5]" name="verifySearchResultPageLoadTest" duration-ms="48117" started-at="2021-06-25T08:23:24 IST" data-provider="getYatraTestData" finished-at="2021-06-25T08:24:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25/07/2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultPageLoadTest -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:com.yatra.qa.testCases.SearchFlightResultsPageTest@ea1a8d5]" name="closeWindow" is-config="true" duration-ms="2853" started-at="2021-06-25T08:24:12 IST" finished-at="2021-06-25T08:24:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- com.yatra.qa.testCases.SearchFlightResultsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
